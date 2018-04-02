@@ -2,3 +2,8 @@
   homebrew:
     name: gpg
     state: present
+
+- name: Install keybase command line
+  homebrew_cask:
+    name: keybase
+    state: present
