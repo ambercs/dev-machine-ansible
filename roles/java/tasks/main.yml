@@ -7,8 +7,8 @@
 - name: make sure jenv is available and initialized
   shell: "export PATH=\"$HOME/.jenv/bin:$PATH\" && eval \"$(jenv init -)\""
 
-- name: add java8 to jenv
-  shell: "jenv add {{java8_home}}"
+- name: add java to jenv
+  shell: "jenv add {{java_home}}"
   ignore_errors: yes
 
 - name: set global java version
