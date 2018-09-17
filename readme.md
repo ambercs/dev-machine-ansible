@@ -2,8 +2,10 @@ This repo contains an ansible playbook for configuring a macOS machine the way I
 
 ## Pre-reqs and manual steps
 
+- Install homebrew `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install pip with `$ sudo easy_install pip`
 - Install ansible with `pip install -r requirements.txt` from this project's root
+- Install these: `sudo pip install paramiko PyYAML jinja2`
 - Install Java8 via [Oracle install page](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and take note of the destination
 - Add a `group_vars/secrets` file for variables with secrets (i.e. passwords). I actually don't think any of the tasks use these, but I set this up so it's clear where they should go if needed in the future.
 
