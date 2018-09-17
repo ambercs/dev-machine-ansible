@@ -12,7 +12,6 @@
     - docker
     - kubernetes
     - java
-    - clojure
     - postgres
     - redis
     - postman
@@ -20,3 +19,5 @@
     - gpg
     - pass
     - node
+    #- intellij
+    

@@ -33,3 +33,60 @@
   homebrew:
     name: tmux
     state: present
+
+- name: install iterm2
+  homebrew_cask:
+    name: iterm2
+    state: present
+  ignore_errors: yes
+
+- name: install gnu-tar
+  homebrew:
+    name: gnu-tar
+    state: present
+
+- name: install chrome-devtools
+  homebrew_cask:
+    name: chrome-devtools
+    state: present
+
+- name: install intellij-idea
+  homebrew_cask:
+    name: intellij-idea
+    state: present
+
+- name: install github
+  homebrew_cask:
+    name: github
+    state: present
+
+- name: install visual-studio-code
+  homebrew_cask:
+    name: visual-studio-code
+    state: present
+  ignore_errors: yes
+
+- name: install beyond-compare
+  homebrew_cask:
+    name: beyond-compare
+    state: present
+
+- name: install filezilla
+  homebrew_cask:
+    name: filezilla
+    state: present
+
+- name: install zoomus
+  homebrew_cask:
+    name: zoomus
+    state: present
+
+- name: install maven
+  homebrew_cask:
+    name: maven
+    state: present
+
+- name: install slack
+  homebrew_cask:
+    name: slack
+    state: present
