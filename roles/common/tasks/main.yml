@@ -85,8 +85,14 @@
   homebrew_cask:
     name: maven
     state: present
+  ignore_errors: yes
 
 - name: install slack
   homebrew_cask:
     name: slack
+    state: present
+
+- name: install spectacle
+  homebrew_cask:
+    name: spectacle
     state: present
