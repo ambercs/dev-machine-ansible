@@ -34,6 +34,21 @@
     name: tmux
     state: present
 
+- name: install tmux
+  homebrew:
+    name: tmux
+    state: present
+
+- name: install kafka
+  homebrew:
+    name: kafka
+    state: present
+
+- name: install tmux
+  homebrew:
+    name: tmux
+    state: present
+
 - name: install iterm2
   homebrew_cask:
     name: iterm2
